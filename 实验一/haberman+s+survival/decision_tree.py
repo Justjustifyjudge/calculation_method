@@ -6,7 +6,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
 # 读取数据
-data = pd.read_csv(r"lin_-\haberman+s+survival\original_data.csv")
+data = pd.read_csv(r"lin_-\实验一\haberman+s+survival\original_data.csv")
 
 # 分离特征和标签
 X = data[['Age', 'Year', 'Nodes']]
